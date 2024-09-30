@@ -122,3 +122,16 @@ h3 {
     grid-column: col / span 4;
     grid-row: row 3;
   }
+  .f {
+    grid-column: col / span 4;
+    grid-row: row 4;
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-top: 1rem;
+}
